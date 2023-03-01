@@ -4,17 +4,3 @@
 *.out
 #build directory
 build/
-#subdirectories of subdirectories of source
-/src/*/**/
-# cfiles directly in source
-/src/*.cxx
-/src/*.cpp
-/src/*.cc
-!/src/main.cxx
-!/src/main.cpp
-
-#ignore the version log
-/versionlog.txt
-
-#generated config files
-/src/**/*.mk
