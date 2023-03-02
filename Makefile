@@ -266,7 +266,7 @@ endif
 .PHONY:generate-testlibconf-file
 
 remove-testlibconf-file:
-	rm -f $(srcdir)libconfig.mk
+	rm -f "$(srcdir)$(MAINCONFIG)"
 .PHONY:generate-testlibconf-file
 
 generate-libdependancy-config-files:
