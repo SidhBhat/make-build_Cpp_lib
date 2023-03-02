@@ -67,7 +67,7 @@ make generate-config-files
 These files will be included into the make process, and act as configuration files. You can specify the libraries to use and any external
 libraries if required here. There will be one config file for each library. See `The Directory Structure` below for more info.
 
-We can have one file `main.cxx` (even `main.cc` and `main.cpp` are allowed) in `srcdir/` to test our library. The executable for this is built
+We can have one file `main.cxx` \(even `main.cc` and `main.cpp` are allowed\) in `srcdir/` to test our library. The executable for this is built
 by calling target `test`.
 
 ```bash
